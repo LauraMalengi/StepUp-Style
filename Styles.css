@@ -53,10 +53,23 @@ nav a {
     color: black;
 }
 
+/* man and female product */
+.man-container{
+    border: solid green;
+    width: 100%;
+    height: 100vh;
+}
+
 
 /* FOOTER */
 .Footer-Section{
     display: flex;
     justify-content: space-around;
 
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .main-Container{
+        width: 50vh;
+    }
 }
