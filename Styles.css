@@ -48,6 +48,13 @@ nav a {
     color: black;
 }
 
+/* man and female product */
+.man-container{
+    border: solid green;
+    width: 100%;
+    height: 100vh;
+}
+
 
 /* FOOTER */
 .Footer-Section{
@@ -55,3 +62,4 @@ nav a {
     justify-content: space-around;
 
 }
+
