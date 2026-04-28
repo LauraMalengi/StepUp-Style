@@ -68,48 +68,12 @@ section, footer{
 .btns{
     display: flex;
 } 
-btn{
-    padding: 0.5rem 1.5rem;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: 1rem;
-    background: #38bdf8;
-    color: #0f172a;
-    box-shadow: 0 0 15px #38bdf8;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
 /* man and female product */
 .man-container{
     border: solid green;
     width: 100%;
     height: 100%;
-}
-
-.Nike{
-    background-image: url(img/banners/Nike\ banner.jpg) ;
-    background-size: cover;
-    height:300px;
-}
-
-.Adidas{
-    background-image: url(img/banners/adidas\ banner.jpg);
-    background-size: cover;
-    height:300px;
-}
-
-.New-balance{
-    background-image: url(img/banners/new\ balance.jpeg);
-    background-size: cover;
-    height:300px;
-}
-
-.Puma{
-    background-image: url(img/banners/Puma\ banner.jpeg);
-    background-size:contain;
-    height:300px;
 }
 
 .Nike-girl{

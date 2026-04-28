@@ -5,8 +5,6 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #0f172a;
-    color: white;
 }
 
 nav{
@@ -21,11 +19,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 
-.nav, nav-group{
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-    }
+/ */
 }
 .logo{
         font-size: 1.8rem;
@@ -71,8 +65,7 @@ nav{
     background: #0aa9f3;
     box-shadow: 0 0 25px #0aa9f3;
 }
-h1{
-    border: 3px solid white;
+h1{ 
     height: 100px;
     width: 20%;
 }
@@ -93,8 +86,90 @@ h4{
     height: 100px;
     width: 20%;
 }
+.man-container{
+    border: solid green;
+    width: 100%;
+    height: 100%;
+}
 
-footer{
+
+.Nike{
+    background-image: url(img/banners/Nike\ banner.jpg) ;
+    background-size: cover;
+    height:300px;
+}
+
+.Adidas{
+    background-image: url(img/banners/adidas\ banner.jpg);
+    background-size: cover;
+    height:300px;
+}
+
+.New-balance{
+    background-image: url(img/banners/new\ balance.jpeg);
+    background-size: cover;
+    height:300px;
+}
+
+.Puma{
+    background-image: url(img/banners/Puma\ banner.jpeg);
+    background-size:contain;
+    height:300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-Container{
+    border: solid red;
+    width:100%;
+    height:100vh;
+}
+
+.Home-section{
+    border: solid yellow; 
+    width:100%;
+    height:50vh;
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+
+/* WIREFRAME LOOK */
+section, footer{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 15px;
+}
+
+.product{
+  width: 120px;
+  height: 190px;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img{
+    width:90px;
+    height:90px;
+}
+.product-button{
+    width:80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+/* FOOTER */
+.Footer-Section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: solid purple;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 150px;
 }
