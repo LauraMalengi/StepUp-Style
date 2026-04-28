@@ -67,12 +67,7 @@ section, footer{
 }
 .btns{
     display: flex;
-/* }
-.btn{
-    padding-left: 70%;
-    background: #0aa9f3;
-    box-shadow: 0 0 25px #0aa9f3;
-} */
+} 
 btn{
     padding: 0.5rem 1.5rem;
     border-radius: 30px;
