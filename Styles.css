@@ -90,10 +90,75 @@ btn{
 .man-container{
     border: solid green;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
+.Nike{
+    background-image: url(img/banners/Nike\ banner.jpg) ;
+    background-size: cover;
+    height:300px;
+}
 
+.Adidas{
+    background-image: url(img/banners/adidas\ banner.jpg);
+    background-size: cover;
+    height:300px;
+}
+
+.New-balance{
+    background-image: url(img/banners/new\ balance.jpeg);
+    background-size: cover;
+    height:300px;
+}
+
+.Puma{
+    background-image: url(img/banners/Puma\ banner.jpeg);
+    background-size:contain;
+    height:300px;
+}
+
+.Nike-girl{
+    background-image: url(img/banners/nike\ girl\ banner.jpeg);
+    background-size: cover;
+    height:300px;
+}
+
+.Adidas-girl{
+    background-image: url(img/banners/adidas\ girl\ banner.jpeg);
+    background-size:contain;
+    height:300px;
+}
+
+.New-balance-girl{
+    background-image: url(img/banners/new\ balance\ girls.jpeg);
+    background-size: cover;
+    height:300px;
+}
+
+.Puma-girl{
+    background-image: url(img/banners/puma\ girls\ banner.jpeg);
+    background-size:contain;
+    height:300px;
+}
+
+.product{
+  width: 120px;
+  height: 170px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img{
+    width:90px;
+    height:90px;
+}
+.product-button{
+    width:80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
 /* FOOTER */
 .Footer-Section{
     display: flex;
