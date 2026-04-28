@@ -121,8 +121,8 @@ nav a {
 
 .product{
   width: 120px;
-  height: 170px;
-  display: block;
+  height: 190px;
+  display:inline-block;
   justify-content: center;
   align-items: center;
 }
@@ -137,6 +137,8 @@ nav a {
     background-color: black;
     color: white;
 }
+
+
 /* FOOTER */
 .Footer-Section{
     display: flex;
